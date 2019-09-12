@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NSIndia</title>
+	<link rel="stylesheet" type="text/css" href="css/event.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/et-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/tooltip.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link id="main" rel="stylesheet" type="text/css" href="css/publisher.css">
+	<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+<style type="text/css">
+*{
+  margin:0;
+  padding:0;
+}
+.sticky{
+	height:70%;
+}
+
+.sticky h2{
+  font-size:100%;
+  font-weight:normal;
+}
+.sticky p{
+  font-size:100%;
+  font-weight:normal;
+}
+.sticky ul{
+  list-style:none;
+}
+.sticky li{
+  list-style:none;
+}
+.sticky ul{
+  overflow:hidden;
+  padding:3em;
+}
+.sticky ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#76c57d;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+.sticky ul li{
+  margin:1em;
+  float:left;
+}
+.sticky ul li h2{
+  font-size:140%;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+ .sticky ul li p{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+}
+.sticky ul li a{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+.sticky ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+ 
+}
+.line{
+	text-decoration: line-through !important;
+
+}
+.sticky ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+ 
+}
+.sticky ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+.sticky ul li a:hover{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+.sticky ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+.sticky ol{text-align:center;}
+.sticky ol li{display:inline;padding-right:1em;}
+.sticky ol li a{color:#fff; }
+.sticky ol li a:hover{color:white !important;}
+</style>
+</head>
+<body>
+<div id="wrapper" class="behind">
+<header>
+	<div class="container">
+			<div class="col-md-6 col-sm-12 wow animated fadeInUp">
+				<div class="intro-book">
+					<img src="img/book1.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-6 intro-text hidden-sm hidden-xs wow animated fadeInUp">
+				<h2 class="heading"> NSIndia</h2>
+				<h4 class="subheading">A conference for iOS, OS X and WatchOS based in India.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<a href="#about" class="scrollto btn btn-white">About</a>
+				
+			</div>
+	</div>
+</header>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><h2 class="heading padd"> NSIndia</h2>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right main-nav">
+				<li><a href="#about" class="scrollto">About</a></li>
+				<li><a href="#events" class="scrollto">Events</a></li>
+				<li><a href="#speakers" class="scrollto">Speakers</a></li>
+				<li><a href="#sponsers" class="scrollto">Sponsers</a></li>
+				<li><a href="#contact" class="scrollto">Contact</a></li>
+				<!--li><a href="#" class="btn btn-green">Purchase Book</a></li-->
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<section id="about">
+	<div class="container padding">
+		<div class="row">	
+			<div class="col-sm-6  col-md-offset-5 text-left">
+				<h2 class="heading">About</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+				<h4 class="subheading wow animated fadeInUp">This lovely, well-written book is concerned foremost with creating typography and is essential for professionals who regularly work for clients.</h4>
+				<p class="small wow animated fadeInUp">Author writes about designing with the correct typeface; striving for rhythm, proportion, and harmony; choosing and combining type; designing pages; using section heads, subheads, footnotes, and tables; applying kerning and other type adjustments to improve legibility; and adding special characters, including punctuation and diacritical marks. </p>
+				<p class="small wow animated fadeInUp">The Elements of Typographic Style teaches the history of and the artistic and practical perspectives on a variety of type families that are available in Europe and America today.</p>
+			</div>
+			</div>
+		</div>
+	
+</section>
+
+<section class="call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp">
+				<p class="white">Innovative concepts, creative ideas, flawless execution.
+Extroadinary events delivered.</b></p>
+			</div>
+		</div>
+	</div>
+</section>
+<!--section id="events">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row author">
+					<div class="col-sm-4">
+						<img src="img/author.png" alt="" class="pic">
+					</div>
+					<div class="col-sm-8 author-name">
+						<a href="events.html"><h2 class="heading wow animated fadeInUp">Nicolas Adamson</h2></a>
+						<h4 class="subheading muted wow animated fadeInUp">july 25 2010</h4>
+					</div>
+				</div>
+				
+			</div> 
+			
+			<div class="col-md-6">
+				<div class="row author">
+					<div class="col-sm-4">
+						<img src="img/author.png" alt="" class="pic">
+					</div>
+					<div class="col-sm-8 author-name">
+						<a href="events.html"><h2 class="heading wow animated fadeInUp">Nicolas Adamson</h2></a>
+						<h4 class="subheading muted wow animated fadeInUp">july 21 2015</h4>
+					</div>
+				</div>
+				
+			</div>
+		
+</div>
+	</div>
+</section-->
+<!--section id="events" class="reviews">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 text-left">
+				<h2 class="heading">Events</h2>
+			</div>
+</div>
+            
+           
+			 <div class="row">
+			<div class="owl-reviews">
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/1.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Alfred Rudolf</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+						
+						<p class="small">This book is an excellent resource for anyone who is serious about graphic layout.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						<p class="small">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						<p class="small">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.</p>
+					</div>
+				</div>
+
+				</div></div>
+
+
+            
+</div></div></div></section-->
+<!--section id="events" class="reviews">
+	<div class="container">
+		<div class="row">	
+			<div class="col-sm-6 text-left">
+				<h2 class="heading">Events</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="owl-reviews">
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/1.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Alfred Rudolf</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+			<p class="small">This book is an excellent resource for anyone who is serious about graphic layout.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						<p class="small">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/3.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Martin Doe</h4>
+						<h6 class="subheading muted reviewer-city">Los Angeles, California</h6>
+						
+						<p class="small">Chock full of great photos of lettering with a little info about the artist and projects shown.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/1.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Alfred Rudolf</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+						
+						<p class="small">This book is an excellent resource for anyone who is serious about graphic layout.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/3.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						<p class="small">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.</p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Martin Doe</h4>
+						<h6 class="subheading muted reviewer-city">Los Angeles, California</h6>
+						
+						<p class="small">Chock full of great photos of lettering with a little info about the artist and projects shown.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section-->
+
+
+<!--section id="events" class="reviews">
+	<div class="container">
+	<div class="row">	
+			<div class="col-sm-6 text-left">
+				<h2 class="heading">Events</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+		<div class="row space">
+              <div class="col-md-3 box">
+           <p class="pull-right smal">thu,sep 20<br>
+           2015</p>
+           
+               
+               <div class="col-md-12 box1">
+
+               	<a class="navbar-brand box-inner" href="#"><img src="img/01.jpg"  alt="" width="65px" height="65px"></a>
+               	<p class="sml">The Elements of Typographic Style teaches the history of and the artistic and practical</p>
+               </div>
+                     </div>
+             
+              <div class="col-md-3 box  ">
+              <p class="pull-right smal">thu,sep 20<br>
+           2015</p>
+           
+               
+               <div class="col-md-12 box1">
+
+               	<a class="navbar-brand box-inner" href="#"><img src="img/01.jpg"  alt="" width="65px" height="65px"></a>
+               	<p class="sml">The Elements of Typographic Style teaches the history of and the artistic and practical</p>
+               </div>
+                     <div class="col-md-3 col-md-offset-3"> 
+                       
+                       </div>
+
+              </div>
+              
+              <div class="col-md-3 box ">
+              <p class="pull-right smal">thu,sep 20<br>
+           2015</p>
+           
+               
+               <div class="col-md-12 box1">
+
+               	<a class="navbar-brand box-inner" href="#"><img src="img/01.jpg"  alt="" width="65px" height="65px"></a>
+               	<p class="sml">The Elements of Typographic Style teaches the history of and the artistic and practical</p>
+               </div>
+                     <div class="col-md-3 col-md-offset-3"> 
+                       
+                       </div>
+              </div>
+              
+              
+
+
+
+
+                </div>
+                </div></section -->
+<section id="events" class="reviews">
+	<div class="container">
+	<div class="row">	
+			<div class="col-sm-6  col-md-offset-5 text-left">
+				<h2 class="heading">Events</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+		<div class="col-md-8 sticky">
+		<ul>
+    <li>
+      <a href="#">
+        <h2 class="line">mar 12,2014</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2 class="line">jan 12 2014</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2 class="line">sep 21,2014</h2>
+        <p>Text Content</p>
+      </a>
+    
+    <li>
+      <a href="#">
+        <h2 class="line">july 5,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2 class="line">june 6,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>sep 31,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>0ct 4,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>oct 18,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Dec 4,2015</h2>
+        <p>Text Content</p>
+      </a>
+    </li>
+    
+  </ul></div>
+  <div class="col-md-4 ">
+				<h3 class="heading wow animated fadeInUp">Upcoming events</h3>
+				<h4 class="subheading muted no-margin wow animated fadeInUp">wait and watch</h4>
+
+				<div class="locations">
+					<div class="location">
+						<h4 class="heading wow animated fadeInUp">Public Conference, <span class="light">TX, USA</span></h4>
+						<div class="date">
+							<i class="fa fa-calendar"></i> 06/20/2015
+						</div>
+						<div class="time">
+							<i class="fa fa-clock-o"></i> 8:00 PM
+						</div>
+						<div class="directions">
+							<a href="https://www.google.com/maps/dir/760+West+Genesee+Street+Syracuse+NY+13204/314+Avery+Avenue+Syracuse+NY+13204" class="get-direction" target="_blank" data-title="Get Directions"><i class="fa fa-compass"></i></a>
+						</div>
+					</div>
+					<div class="location">
+						<h4 class="heading wow animated fadeInUp"> Expo, <span class="light">WA, USA</span></h4>
+						<div class="date">
+							<i class="fa fa-calendar"></i> 06/20/2015
+						</div>
+						<div class="time">
+							<i class="fa fa-clock-o"></i> 8:00 PM
+						</div>
+						<div class="directions">
+							<a href="https://www.google.com/maps/dir/760+West+Genesee+Street+Syracuse+NY+13204/314+Avery+Avenue+Syracuse+NY+13204" class="get-direction" target="_blank"  data-title="Get Directions"><i class="fa fa-compass"></i></a>
+						</div>
+					</div>
+					<div class="location done">
+						<h4 class="heading wow animated fadeInUp">New York Expo 2015, <span class="light">NYC, USA</span></h4>
+					</div>
+					<div class="location done">
+						<h4 class="heading wow animated fadeInUp">Europe Tour, <span class="light">Paris, FR</span></h4>
+					</div>
+					<div class="location done">
+						<h4 class="heading wow animated fadeInUp">Europe Tour, <span class="light">Belgrade, SRB</span></h4>
+					</div>
+				</div>
+			</div>
+
+
+
+
+</div></section>
+
+
+<section class="call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 text-left text-center-mobile wow animated fadeInUp">
+				<h2 class="heading white top-fit">Get to know about speakers</h2>
+				<h4 class="subheading white no-margin"></h4>
+			</div>
+			<div class="col-md-4 text-right wow animated fadeInUp text-center-mobile">
+				<a href="#contact" class="btn btn-white sample-button">Get in touch</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--section id="events" class="reviews">
+	<div class="container">
+	<div class="row">	
+			<div class="col-sm-6 text-left">
+				<h2 class="heading">Events</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+		<div class="col-md-10 col-md-offset-2"><div class="col-md-6 pad">
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+	<img src="img/01.jpg" width="100%" height="290px">
+			
+		</div>
+		<div class="back">
+		<p class="text">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.</p>
+			
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+		<img src="img/01.jpg" width="100%" height="290px">
+			
+		</div>
+		<div class="back">
+		<p class="text">Swiss Typography is a critical guide for graphic designers. I  recommend this fantastic eBook.<p>
+			
+		</div>
+	</div>
+</div>
+	</div>	
+</div>
+
+
+
+</div>
+</section -->
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="speakers" class="reviews">
+	<div class="container">
+		<div class="row">	
+			<div class="col-sm-6  col-md-offset-5 text-left">
+				<h2 class="heading">Speakers</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="owl-reviews">
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/1.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Alfred Rudolf</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+						<!--div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div-->
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/3.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Martin Doe</h4>
+						<h6 class="subheading muted reviewer-city">Los Angeles, California</h6>
+						<!--div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div-->
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/1.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Alfred Rudolf</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+						<!--div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div-->
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/3.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Emily Carey</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						<!--div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+						</div-->
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/reviewers/2.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">Martin Doe</h4>
+						<h6 class="subheading muted reviewer-city">Los Angeles, California</h6>
+						<!--div class="rating">
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate active"></span>
+							<span class="rate"></span>
+						</div-->
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 text-left text-center-mobile wow animated fadeInUp">
+				<h2 class="heading white top-fit">Getting You Prepared for (Year).</h2>
+				<h4 class="subheading white no-margin"></h4>
+			</div>
+			<!--div class="col-md-4 text-right wow animated fadeInUp text-center-mobile">
+				<a href="#" class="btn btn-white sample-button">Get Free Sample</a>
+			</div-->
+		</div>
+	</div>
+</section>
+
+<section id="sample-form">
+	<div class="container">
+		<form id="submit-frm" action="php/sampleMail.php" method="post" class="sample-form">
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" class="form-control" name="firstname" placeholder="Name" data-validation="required">
+				</div>
+				<div class="col-sm-5">
+					<input type="text" class="form-control" name="email" placeholder="Email" data-validation="email">
+				</div>
+				<div class="col-sm-2">
+					<input type="submit" class="btn btn-green sign-up-button sample-button-done" value="Subscribe">
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
+
+<section id="sponsers" class="reviews">
+<div class="container">
+<div class="row">	
+			<div class="col-sm-6  col-md-offset-5 text-left">
+				<h2 class="heading">Sponsers</h2>
+			</div>
+			<div class="col-sm-6 text-right text-left-mobile">
+				
+			</div>
+		</div>
+            
+           
+			 <div class="row">
+			<div class="owl-reviews">
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/IBM-logo.png" class="reviewer-pic" alt="">
+						<h4 class="subheading reviewer-name">IBM</h4>
+						<h6 class="subheading muted reviewer-city">Dallas, Texas</h6>
+						
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/a.png" class="reviewer-pic" alt="" width="97px" height="97px">
+						<h4 class="subheading reviewer-name">Apple</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="review text-center wow animated fadeInUp">
+						<img src="img/m.png" class="reviewer-pic" alt="" width="97px" height="97px">
+						<h4 class="subheading reviewer-name">Microsoft</h4>
+						<h6 class="subheading muted reviewer-city">Tampa, Florida</h6>
+						
+						
+					</div>
+				</div>
+
+				</div></div>
+
+
+            
+</div></div></div></section>
+
+<section class="call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 text-left text-center-mobile wow animated fadeInUp">
+				<h2 class="heading white top-fit">No grand idea was ever born in a conference, but a lot of foolish ideas have died there.</h2>
+				
+			</div>
+			<div class="col-md-2 text-right wow animated fadeInUp text-center-mobile">
+			
+			</div>
+		</div>
+		<div class="col-md-4 col-md-offset-6 text-right wow animated fadeInUp text-center-mobile">
+	    <h4 class="subheading white no-margin">F. Scott Fitzgerald</h4>	</div>
+</section>
+
+
+
+
+
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left text-center-mobile wow animated fadeInUp contact-details">
+				<h3 class="heading no-margin wow animated fadeInUp">Contact</h3>
+				<h4 class="subheading muted no-margin wow animated fadeInUp">Say hi or ask something.</h4>
+				<div class="details">
+					<h6 class="heading no-margin">Nicolas Adamson</h6>
+					<p class="small muted wow animated fadeInUp no-margin">3125 Flanigan Oaks Drive <br>
+					Capitol Heights, MD 20027</p>
+				</div>
+				<div class="details">
+					<h4 class="subheading accent no-margin wow animated fadeInUp">+ 301 324 9131 <br>
+					info@nicolasadamson.com</h4>
+				</div>
+			</div>
+			<form action="php/newMail.php" method="post" class="mail-form">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-sm-6">
+							<input name="firstname" type="text" class="form-control" placeholder="Name" data-validation="required">
+						</div>
+						<div class="col-sm-6">
+							<input name="email" type="text" class="form-control" placeholder="Email" data-validation="email">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<input name="subject" type="text" class="form-control" placeholder="Subject" data-validation="required">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<textarea name="body" class="form-control" rows="10" placeholder="Message. . ." data-validation="required"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12.text-left">
+							<input type="submit" class="btn btn-green contact-button" value="Send">
+						</div>
+					</div>
+			
+	</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 text-left text-center-mobile">
+				<p class="copyright small muted">Fork this project @ krty.github.io/nsindia </p>
+			</div>
+			<div class="col-sm-6 text-right text-center-mobile">
+				<div class="social">
+					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a>
+					<a href="#" class="vine"><i class="fa fa-vine"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</section>
+</div>
+
+<div class="notification-box"><span>Sending...</span></div>
+<div class="mobile-nav">
+	<ul class="menu">
+		
+	</ul>
+</div>
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.onepagenav.js"></script>
+<script src="js/core.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/jquery.form-validator.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
